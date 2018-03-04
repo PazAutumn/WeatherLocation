@@ -1,3 +1,7 @@
 .weatherDataCont {
-  background-color: orange;
+    background-color: aliceblue;
+}
+
+.weatherTemCont {
+    margin-bottom: 1em;
 }
