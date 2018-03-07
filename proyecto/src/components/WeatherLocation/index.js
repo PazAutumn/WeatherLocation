@@ -4,6 +4,7 @@ import CircularProgress from 'material-ui/CircularProgress';
 import Location from './Location';
 import WeatherData from './WeatherData';
 import transformWeather from './../../services/transformWeather';
+import './styles.css';
 /*import {CLOUD, CLOUDY, SUN, RAIN, SNOW, WINDY} from '../../constant/weathers';*/
 
 const api_key = '5fb190f71d8c25c51105325c05987710';
@@ -40,7 +41,7 @@ class WeatherLocation extends Component {
         // set.state los puede setear y entregarle datos nuevos
         this.state = {
             city,
-            data: null
+            data: null,
         }
         console.log('Constructor');
     }
